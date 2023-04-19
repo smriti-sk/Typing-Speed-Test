@@ -1,45 +1,54 @@
+:root{--btn-color: #fff}
 * {
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  background-color: linear-gradient(#5d44f8, #f6bc39);
+  color: #1c2136;
 }
 .main {
-    /* display:block;
-    margin: auto; */
-    background-color: rgb(7, 6, 50);
-    height: 100vh;
-    width: 100%;
-    position: relative;
-}
-.center {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 2em;
-    text-align: center;
+  width: 100%;
+  position: relative;
+
 }
 h1 {
-    color: white;
-    font-size: 38px;
+  color: #5d44f8;
+  font-size: 38px;
+  margin-top: 10px;
+  text-align: center;
 }
-h2{
-    color: white;
+.center {
+  position: absolute;
+  padding: 2rem;
+  text-align: center;
+}
+h2 {
+  color: #1c2136;
+  font-size: 28px;
+  font-weight: 450;
+  margin-bottom: 1em;
 }
 textarea {
-    background-color: rgb(252, 251, 239)smoke;
-    border-style: solid;
-    border-radius: 3px;
-    margin: 1em;
-    padding: 1em;
+  background-color: #EEF0F5;
+  border-color: #5d44f8;
+  border-width: 5px;
+  border-style: solid;
+  border-radius: 5px;
+  font-size: 24px;
+  margin: 0 auto;
+  padding: 1em;
+  min-width: 70%;
+  height: 10em;
 }
 .mainbtn {
-    border-style: solid;
-    border-radius: 3px;
-    padding: 3px;
-    min-width: 5em;
-    height: 2em;
-    background-color: rgb(0, 81, 255);
-    color: white;
-
+  border-style: solid;
+  border-radius: 25px;
+  margin: 1em 0em;
+  padding: 5px;
+  max-width: 4.5em;
+  border-color: #1c2136;
+  background-color: #f6bc39;
+  font-size: 30px;
+  color: #1c2136;
 }
