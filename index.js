@@ -19,7 +19,6 @@ const playGame = () => {
 };
 
 const endPlay = () => {
-  typeWords.value= "";
   let date = new Date();
   endTime = date.getTime();
   let totalTime = (endTime - startTime) / 1000; //divide by 1000 to convert from ms to seconds
@@ -35,6 +34,7 @@ const endPlay = () => {
   finalMsg += compareWords(msg.innerText, totalStr);
 
   msg.innerText = finalMsg;
+  typeWords.value= "";
 };
 
 const compareWords = (str1, str2) => {
